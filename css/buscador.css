@@ -1,0 +1,106 @@
+.box {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+input.src {
+    padding: 9px 10px 9px 46px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #444;
+    border: 3px solid #59606d;
+    background: #fff url("buscar.png") no-repeat 9px center;
+    width: 128px;
+    transition: all .5s;
+}
+
+input.src:hover {
+    width: 258px;
+    background-color: #fff;
+    border-color: #efddb2;
+    box-shadow: 0 0 5px #6dcff680;
+}
+
+.wey {
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    width: 1100px;
+}
+
+.wey .cards {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.wey .cards .boxs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 1s ease;
+}
+
+.wey .cards:hover .boxs {
+    transform: rotateY(180deg);
+}
+
+.wey .cards .boxs .imgBxs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wey .cards .boxs .imgBxs img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wey .cards .boxs .contentBxs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.wey .cards .boxs .contentBxs div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #01bac4, #03616b);
+    transform: translateZ(100px);
+}
+
+.wey .cards .boxs .contentBxs div h2 {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.wey .cards .boxs .contentBxs div p {
+    color: #fff;
+    font-size: 16px;
+}
