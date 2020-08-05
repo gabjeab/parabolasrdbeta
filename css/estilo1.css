@@ -6,7 +6,7 @@
 body {
     width: 100%;
     background: #3a4042;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', 'Source Sans Pro', sans-serif;
     flex-wrap: wrap;
     overflow-x: hidden;
 }
@@ -226,22 +226,27 @@ tbody tr td a:hover {
     background: #eeeeee;
     height: 100px;
     box-sizing: border-box;
-    height: 200px;
+    height: 230px;
     width: 100%;
     margin-bottom: 10px;
 }
 
 .lf {
     color: #303841;
-    padding-top: 50px;
+    align-items: center;
+    justify-items: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .lk {
     color: #303841;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .home {

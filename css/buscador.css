@@ -34,7 +34,7 @@ input.src:hover {
     position: relative;
     width: 320px;
     height: 320px;
-    margin: 20px;
+    margin: 30px;
     transform-style: preserve-3d;
     perspective: 1000px;
 }
