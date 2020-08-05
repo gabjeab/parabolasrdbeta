@@ -23,13 +23,11 @@ input.src:hover {
 }
 
 .wey {
-    margin-left: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     transform-style: preserve-3d;
-    width: 1100px;
 }
 
 .wey .cards {

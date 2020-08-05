@@ -420,6 +420,17 @@
             alert('Esta pagina es un beto, por lo cual puede tener bugs o cosas que no van donde estan, y cosas que hay que modificar, etc.')
         </script>
 
+        <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".cards"), {
+                max: 25,
+                speed: 400
+            });
+
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".cards"));
+        </script>
+
 </body>
 
 </html>
