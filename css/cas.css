@@ -24,8 +24,12 @@
     transition: 0.3s ease-in-out;
 }
 
+.content {
+    font-size: 15px;
+}
+
 .conten .card:hover {
-    height: 420px;
+    height: 450px;
 }
 
 .conten .card .imgBx {
@@ -75,6 +79,6 @@
 .conten .card:hover .content {
     visibility: visible;
     opacity: 1;
-    margin-top: -75px;
+    margin-top: -95px;
     transition-delay: 0.3s;
 }
